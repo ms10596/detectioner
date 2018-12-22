@@ -1,11 +1,11 @@
 import os
-import tensorflow as tf
+
 import matplotlib.image as mpimg
 import numpy as np
 
 
 def load_pics():
-    pics = np.empty(shape=(1650, 48, 48, 3), dtype=np.float)
+    pics = np.empty(shape=(1650, 48, 48, 3), dtype=np.uint8)
     labels = np.empty(shape=(1650, 1), dtype=np.int)
     cnt = 0
     names = ('ashraf', 'joseph', 'magdy', 'ref', 'sayed', 'Shehab')
@@ -46,6 +46,3 @@ def load():
     test_labels = all_labels[training_portion:]
 
     return training_data, training_labels, test_data, test_labels, classes
-
-# x, y, x1, y1 = load()
-# print(y[0])
