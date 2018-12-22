@@ -35,9 +35,6 @@ def load():
     shuffled = np.random.permutation(data_length)
     all_data = all_data[shuffled]
     all_labels = all_labels[shuffled]
-    # all_labels = tf.one_hot(all_labels, 6)
-
-    # print(all_labels[0])
 
     training_data = all_data[0:training_portion]
     test_data = all_data[training_portion:]
