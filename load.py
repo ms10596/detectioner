@@ -8,7 +8,7 @@ def load_pics():
     pics = np.empty(shape=(1650, 48, 48, 3), dtype=np.uint8)
     labels = np.empty(shape=(1650, 1), dtype=np.int)
     cnt = 0
-    names = ('ashraf', 'joseph', 'magdy', 'ref', 'sayed', 'Shehab')
+    names = ['ashraf', 'joseph', 'magdy', 'ref', 'sayed', 'Shehab']
     for name in names:
         files = os.listdir('photos/' + name)
         for i in files:
