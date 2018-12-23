@@ -1,6 +1,6 @@
 # Convolution and neural network result
-|Architecture|epochs|batch-size|optimizer|Train-acc|Test-acc|Loss-func|ملاحظات
-|---|---|---|---|---|---|---|---|
+|Architecture|epochs|batch-size|Train-acc|Test-acc|ملاحظات
+|---|---|---|---|---|---|
 |relu(conv2d(3))->maxpooling->relu(500)->relu(500)->softmax(6)|20|50|1|0.69|
 |relu(conv2d(3))->maxpooling->relu(500)->relu(500)->softmax(6)|10|50|0.99|0.59|
 |relu(conv2d(3))->maxpooling->relu(500)->relu(500)->softmax(6)|100|50|1|0.62|
