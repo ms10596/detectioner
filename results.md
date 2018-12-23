@@ -22,7 +22,7 @@
 # Conclusion
 >After trying a lot we can conclude that the best test accuracy we can get is
 0.62 using *Keras Categorical loss*. Although *Keras Binary Cross entropy* produce better test result. 
-After some investigation we compared the 2 functions's implementations:
+After some investigation we compared the 2 functions' implementations:
 
 
 ```python
